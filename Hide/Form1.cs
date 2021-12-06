@@ -24,7 +24,7 @@ namespace Hide
 
         private void bShow_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "Hello World";
             textBox1.Visible = true;
         }
 
