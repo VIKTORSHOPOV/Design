@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{DDAF93A1-A7DD-48AB-B581-C3E1925465B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatCalc", "RatCalc\RatCalc.csproj", "{6F07804F-4006-45CE-80EE-7B5481CB1493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DDAF93A1-A7DD-48AB-B581-C3E1925465B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAF93A1-A7DD-48AB-B581-C3E1925465B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAF93A1-A7DD-48AB-B581-C3E1925465B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F07804F-4006-45CE-80EE-7B5481CB1493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F07804F-4006-45CE-80EE-7B5481CB1493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F07804F-4006-45CE-80EE-7B5481CB1493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F07804F-4006-45CE-80EE-7B5481CB1493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
