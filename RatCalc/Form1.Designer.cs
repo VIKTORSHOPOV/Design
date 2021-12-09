@@ -64,53 +64,65 @@ namespace RatCalc
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.White;
+            this.btnAdd.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAdd.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnAdd.Location = new System.Drawing.Point(99, 86);
             this.btnAdd.Name = "btnAdd";
+            this.btnAdd.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnAdd.Size = new System.Drawing.Size(30, 27);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "+";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnSub
             // 
+            this.btnSub.BackColor = System.Drawing.Color.White;
+            this.btnSub.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnSub.Location = new System.Drawing.Point(135, 86);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(30, 27);
             this.btnSub.TabIndex = 4;
             this.btnSub.Text = "-";
-            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.UseVisualStyleBackColor = false;
             this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnMult
             // 
+            this.btnMult.BackColor = System.Drawing.Color.White;
+            this.btnMult.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnMult.Location = new System.Drawing.Point(171, 86);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(30, 27);
             this.btnMult.TabIndex = 5;
             this.btnMult.Text = "*";
-            this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.UseVisualStyleBackColor = false;
             this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnDev
             // 
+            this.btnDev.BackColor = System.Drawing.Color.White;
+            this.btnDev.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnDev.Location = new System.Drawing.Point(207, 86);
             this.btnDev.Name = "btnDev";
             this.btnDev.Size = new System.Drawing.Size(30, 27);
             this.btnDev.TabIndex = 6;
             this.btnDev.Text = "/";
-            this.btnDev.UseVisualStyleBackColor = true;
+            this.btnDev.UseVisualStyleBackColor = false;
             this.btnDev.Click += new System.EventHandler(this.btnDev_Click);
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.White;
+            this.btnClear.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(377, 84);
             this.btnClear.Name = "btnClear";
             this.btnClear.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClear.Size = new System.Drawing.Size(89, 30);
             this.btnClear.TabIndex = 7;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
