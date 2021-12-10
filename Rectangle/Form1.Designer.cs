@@ -29,6 +29,7 @@ namespace Rectangle
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.width = new System.Windows.Forms.Label();
             this.height = new System.Windows.Forms.Label();
             this.txtWidth = new System.Windows.Forms.TextBox();
@@ -38,6 +39,8 @@ namespace Rectangle
             this.lblArea = new System.Windows.Forms.Label();
             this.lblPerimeter = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // width
@@ -134,10 +137,32 @@ namespace Rectangle
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 15;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // btnReset
+            // 
+            this.btnReset.BackColor = System.Drawing.Color.Aqua;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(662, 111);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(29, 25);
+            this.btnReset.TabIndex = 9;
+            this.btnReset.Text = "?";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Visible = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // Rectangle
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(694, 138);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblPerimeter);
             this.Controls.Add(this.lblArea);
@@ -147,6 +172,7 @@ namespace Rectangle
             this.Controls.Add(this.txtWidth);
             this.Controls.Add(this.height);
             this.Controls.Add(this.width);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Rectangle";
             this.Text = "Rectangle";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -168,6 +194,8 @@ namespace Rectangle
         private System.Windows.Forms.Label lblArea;
         private System.Windows.Forms.Label lblPerimeter;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 
