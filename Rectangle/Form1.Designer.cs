@@ -137,7 +137,7 @@ namespace Rectangle
             // Rectangle
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(739, 138);
+            this.ClientSize = new System.Drawing.Size(694, 138);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblPerimeter);
             this.Controls.Add(this.lblArea);
