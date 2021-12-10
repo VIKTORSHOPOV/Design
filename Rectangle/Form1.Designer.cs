@@ -152,7 +152,7 @@ namespace Rectangle
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(29, 25);
             this.btnReset.TabIndex = 9;
-            this.btnReset.Text = "?";
+            this.btnReset.Text = "⟲";
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Visible = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
