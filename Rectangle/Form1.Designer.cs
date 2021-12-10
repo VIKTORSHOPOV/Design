@@ -173,7 +173,9 @@ namespace Rectangle
             this.Controls.Add(this.height);
             this.Controls.Add(this.width);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Rectangle";
+            this.ShowIcon = false;
             this.Text = "Rectangle";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

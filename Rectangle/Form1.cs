@@ -96,7 +96,6 @@ namespace Rectangle
                 btnReset.Visible = false;
             }
 
-
             if (btnPerimeter.Location.Y != 65)
             {
                 btnPerimeter.Location = new Point(btnPerimeter.Location.X, btnPerimeter.Location.Y - 1);
@@ -129,8 +128,6 @@ namespace Rectangle
             {
                 lblPerimeter.Location = new Point(lblPerimeter.Location.X, lblPerimeter.Location.Y - 1);
             }
-
-
         }
 
         private void btnReset_Click(object sender, EventArgs e)
