@@ -204,27 +204,27 @@ namespace Toto
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // timer2
             // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.timer2.Tick += new System.EventHandler(this.Timer2_Tick);
             // 
             // timer3
             // 
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            this.timer3.Tick += new System.EventHandler(this.Timer3_Tick);
             // 
             // timer4
             // 
-            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            this.timer4.Tick += new System.EventHandler(this.Timer4_Tick);
             // 
             // timer5
             // 
-            this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
+            this.timer5.Tick += new System.EventHandler(this.Timer5_Tick);
             // 
             // timer6
             // 
-            this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
+            this.timer6.Tick += new System.EventHandler(this.Timer6_Tick);
             // 
             // Form1
             // 

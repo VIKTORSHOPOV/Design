@@ -45,7 +45,7 @@ namespace Toto
             br6 = 0;
         }
 
-        public void timer1_Tick(object sender, EventArgs e)
+        public void Timer1_Tick(object sender, EventArgs e)
         {
 
             Rand r = new Rand();
@@ -57,14 +57,14 @@ namespace Toto
             }
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
+        private void Timer2_Tick(object sender, EventArgs e)
         {
             Rand r = new Rand();
             lbl2.Text = r.GetRandomNumber();
             br2++;
             if (lbl2.Text == lbl1.Text)
             {
-                br2 -= 1;
+                br2 -= r.GetRandomNumber2();
             }
             if (br2 == 20)
             {
@@ -72,14 +72,14 @@ namespace Toto
             }
         }
 
-        private void timer3_Tick(object sender, EventArgs e)
+        private void Timer3_Tick(object sender, EventArgs e)
         {
             Rand r = new Rand();
             lbl3.Text = r.GetRandomNumber();
             br3++;
             if (lbl3.Text == lbl1.Text || lbl3.Text == lbl2.Text)
             {
-                br3 -= 1;
+                br3 -= r.GetRandomNumber2();
             }
             if (br3 == 30)
             {
@@ -87,14 +87,14 @@ namespace Toto
             }
         }
 
-        private void timer4_Tick(object sender, EventArgs e)
+        private void Timer4_Tick(object sender, EventArgs e)
         {
             Rand r = new Rand();
             lbl4.Text = r.GetRandomNumber();
             br4++;
             if (lbl4.Text == lbl1.Text || lbl4.Text == lbl2.Text || lbl4.Text == lbl3.Text)
             {
-                br4 -= 1;
+                br4 -= r.GetRandomNumber2();
             }
             if (br4 == 40)
             {
@@ -102,14 +102,14 @@ namespace Toto
             }
         }
 
-        private void timer5_Tick(object sender, EventArgs e)
+        private void Timer5_Tick(object sender, EventArgs e)
         {
             Rand r = new Rand();
             lbl5.Text = r.GetRandomNumber();
             br5++;
             if (lbl5.Text == lbl1.Text || lbl5.Text == lbl2.Text || lbl5.Text == lbl3.Text || lbl5.Text == lbl4.Text)
             {
-                br5 -= 1;
+                br5 -= r.GetRandomNumber2();
             }
             if (br5 == 50)
             {
@@ -117,14 +117,14 @@ namespace Toto
             }
         }
 
-        private void timer6_Tick(object sender, EventArgs e)
+        private void Timer6_Tick(object sender, EventArgs e)
         {
             Rand r = new Rand();
             lbl6.Text = r.GetRandomNumber();
             br6++;
             if (lbl6.Text == lbl1.Text || lbl6.Text == lbl2.Text || lbl6.Text == lbl3.Text || lbl6.Text == lbl4.Text || lbl6.Text == lbl5.Text)
             {
-                br6 -= 1;
+                br6 -= r.GetRandomNumber2();
             }
             if (br6 == 60)
             {
@@ -132,6 +132,6 @@ namespace Toto
             }
         }
 
-        
+
     }
 }
