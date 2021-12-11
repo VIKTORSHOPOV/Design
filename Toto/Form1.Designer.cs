@@ -49,21 +49,23 @@ namespace Toto
             this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.timer6 = new System.Windows.Forms.Timer(this.components);
-            this.timer7 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(40, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Първо число";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl1
             // 
+            this.lbl1.BackColor = System.Drawing.Color.White;
             this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.Location = new System.Drawing.Point(171, 32);
@@ -75,6 +77,7 @@ namespace Toto
             // 
             // lbl2
             // 
+            this.lbl2.BackColor = System.Drawing.Color.White;
             this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.Location = new System.Drawing.Point(171, 73);
@@ -85,16 +88,19 @@ namespace Toto
             // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(40, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 30);
             this.label3.TabIndex = 2;
             this.label3.Text = "Второ число";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl3
             // 
+            this.lbl3.BackColor = System.Drawing.Color.White;
             this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.Location = new System.Drawing.Point(171, 118);
@@ -105,16 +111,19 @@ namespace Toto
             // 
             // label5
             // 
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label5.Location = new System.Drawing.Point(40, 118);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(125, 30);
             this.label5.TabIndex = 4;
             this.label5.Text = "Трето число";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl4
             // 
+            this.lbl4.BackColor = System.Drawing.Color.White;
             this.lbl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl4.Location = new System.Drawing.Point(404, 32);
@@ -125,16 +134,19 @@ namespace Toto
             // 
             // label7
             // 
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label7.Location = new System.Drawing.Point(245, 32);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(153, 30);
             this.label7.TabIndex = 6;
             this.label7.Text = "Четвърто число";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl5
             // 
+            this.lbl5.BackColor = System.Drawing.Color.White;
             this.lbl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5.Location = new System.Drawing.Point(404, 73);
@@ -145,16 +157,19 @@ namespace Toto
             // 
             // label9
             // 
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label9.Location = new System.Drawing.Point(245, 73);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(125, 30);
             this.label9.TabIndex = 8;
             this.label9.Text = "Пето число";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl6
             // 
+            this.lbl6.BackColor = System.Drawing.Color.White;
             this.lbl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl6.Location = new System.Drawing.Point(404, 118);
@@ -165,23 +180,26 @@ namespace Toto
             // 
             // label11
             // 
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(245, 118);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(125, 30);
             this.label11.TabIndex = 10;
             this.label11.Text = "Шесто число";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button
             // 
-            this.button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button.Location = new System.Drawing.Point(297, 167);
             this.button.Name = "button";
             this.button.Size = new System.Drawing.Size(144, 39);
             this.button.TabIndex = 12;
             this.button.Text = "Генерирай";
-            this.button.UseVisualStyleBackColor = true;
+            this.button.UseVisualStyleBackColor = false;
             this.button.Click += new System.EventHandler(this.button_Click);
             // 
             // timer1
@@ -208,16 +226,12 @@ namespace Toto
             // 
             this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
             // 
-            // timer7
-            // 
-            this.timer7.Interval = 1000;
-            this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 248);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(509, 228);
             this.Controls.Add(this.button);
             this.Controls.Add(this.lbl6);
             this.Controls.Add(this.label11);
@@ -231,8 +245,10 @@ namespace Toto
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Тото 6 от 49";
             this.ResumeLayout(false);
 
         }
@@ -258,7 +274,6 @@ namespace Toto
         private System.Windows.Forms.Timer timer4;
         private System.Windows.Forms.Timer timer5;
         private System.Windows.Forms.Timer timer6;
-        private System.Windows.Forms.Timer timer7;
     }
 }
 

@@ -12,8 +12,11 @@ namespace Toto
 
         public string GetRandomNumber()
         {
+            
             Random random = new Random();
+            
             return random.Next(1, 50).ToString();
+            
         }
     }
 }

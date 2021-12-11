@@ -37,7 +37,6 @@ namespace Toto
             timer4.Enabled = true;
             timer5.Enabled = true;
             timer6.Enabled = true;
-            timer7.Enabled = true;
             br1 = 0;
             br2 = 0;
             br3 = 0;
@@ -56,8 +55,6 @@ namespace Toto
             {
                 timer1.Enabled = false;
             }
-
-
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -73,7 +70,6 @@ namespace Toto
             {
                 timer2.Enabled = false;
             }
-
         }
 
         private void timer3_Tick(object sender, EventArgs e)
@@ -136,11 +132,6 @@ namespace Toto
             }
         }
 
-        private void timer7_Tick(object sender, EventArgs e)
-        {
-
-
-
-        }
+        
     }
 }
