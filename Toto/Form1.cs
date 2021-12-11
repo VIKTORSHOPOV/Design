@@ -132,13 +132,35 @@ namespace Toto
                 timer6.Enabled = false;
             }
         }
-
+        bool flag = true;
         private void timer7_Tick(object sender, EventArgs e)
         {
             if (timer6.Enabled == false)
             {
                 button.Visible = true;
             }
+            if (timer6.Enabled == true)
+            {
+                if (flag)
+                {
+                    BackColor = Color.DeepPink;
+                    flag = false;
+                }
+                else
+                {
+                    BackColor = Color.MediumPurple;
+                    flag = true;
+                }
+            }
+            else
+            {
+                BackColor = Color.Pink;
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

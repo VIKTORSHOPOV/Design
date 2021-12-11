@@ -230,13 +230,14 @@ namespace Toto
             // timer7
             // 
             this.timer7.Enabled = true;
+            this.timer7.Interval = 1000;
             this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(509, 228);
             this.Controls.Add(this.button);
             this.Controls.Add(this.lbl6);
@@ -255,6 +256,7 @@ namespace Toto
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Тото 6 от 49";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
