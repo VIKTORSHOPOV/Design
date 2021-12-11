@@ -43,6 +43,7 @@ namespace Toto
             br4 = 0;
             br5 = 0;
             br6 = 0;
+            button.Visible = false;
         }
 
         public void Timer1_Tick(object sender, EventArgs e)
@@ -132,6 +133,12 @@ namespace Toto
             }
         }
 
-
+        private void timer7_Tick(object sender, EventArgs e)
+        {
+            if (timer6.Enabled == false)
+            {
+                button.Visible = true;
+            }
+        }
     }
 }

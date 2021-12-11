@@ -49,6 +49,7 @@ namespace Toto
             this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.timer6 = new System.Windows.Forms.Timer(this.components);
+            this.timer7 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -226,6 +227,11 @@ namespace Toto
             // 
             this.timer6.Tick += new System.EventHandler(this.Timer6_Tick);
             // 
+            // timer7
+            // 
+            this.timer7.Enabled = true;
+            this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,6 +280,7 @@ namespace Toto
         private System.Windows.Forms.Timer timer4;
         private System.Windows.Forms.Timer timer5;
         private System.Windows.Forms.Timer timer6;
+        private System.Windows.Forms.Timer timer7;
     }
 }
 
