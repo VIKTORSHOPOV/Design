@@ -52,6 +52,7 @@ namespace Rectangle
             this.width.Size = new System.Drawing.Size(43, 16);
             this.width.TabIndex = 0;
             this.width.Text = "width";
+            this.width.Click += new System.EventHandler(this.width_Click);
             // 
             // height
             // 

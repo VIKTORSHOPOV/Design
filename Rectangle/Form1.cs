@@ -144,6 +144,11 @@ namespace Rectangle
             btnPerimeter.Location = new Point(btnPerimeter.Location.X, btnPerimeter.Location.Y + 140);
             lblPerimeter.Location = new Point(lblPerimeter.Location.X, lblPerimeter.Location.Y + 160);
         }
+
+        private void width_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
