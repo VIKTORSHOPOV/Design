@@ -252,7 +252,7 @@ namespace Toto
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Тото 6 от 49";
