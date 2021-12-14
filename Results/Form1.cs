@@ -129,7 +129,7 @@ namespace Results
 
         private void btnAverage_Click(object sender, EventArgs e)
         {
-            if (txtBEL.Text != "" || txtEzik.Text != "" || txtMatematika.Text != "" || txtFizika.Text != "" || txtHimiq.Text != "" || txtBiologiq.Text != "")
+            if (txtBEL.Text != "" && txtEzik.Text != "" && txtMatematika.Text != "" && txtFizika.Text != "" && txtHimiq.Text != "" && txtBiologiq.Text != "")
             {
                 lblAverage.Text = Math.Round((double.Parse(txtBEL.Text) + double.Parse(txtEzik.Text) + double.Parse(txtMatematika.Text) + double.Parse(txtFizika.Text)
                     + double.Parse(txtHimiq.Text) + double.Parse(txtBiologiq.Text)) / 6, 2).ToString();
