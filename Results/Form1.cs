@@ -122,17 +122,7 @@ namespace Results
                 txtHimiq.Text = output[6].ToString();
                 txtBiologiq.Text = output[7].ToString();
             }
-            else
-            {
-                txtClass.Text = "";
-                txtNumber.Text = "";
-                txtBEL.Text = "";
-                txtEzik.Text = "";
-                txtMatematika.Text = "";
-                txtFizika.Text = "";
-                txtHimiq.Text = "";
-                txtBiologiq.Text = "";
-            }
+            
 
         }
 
