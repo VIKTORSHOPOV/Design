@@ -335,8 +335,9 @@ namespace Results
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtClass);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Results";
             this.ResumeLayout(false);
             this.PerformLayout();
 
