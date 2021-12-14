@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Results
 {
-    class Student
+    class Students
     {
         int[] aklas = new int[26];
         int[] anumber = new int[26];

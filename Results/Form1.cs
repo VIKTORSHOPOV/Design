@@ -12,11 +12,11 @@ namespace Results
 {
     public partial class Form1 : Form
     {
+        Students student = new Students();
         public Form1()
         {
             InitializeComponent();
         }
-        Student student = new Student();
         private void btnClear_Click(object sender, EventArgs e)
         {
             ClearTextBoxes(Controls);
