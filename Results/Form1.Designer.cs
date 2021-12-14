@@ -57,6 +57,7 @@ namespace Results
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(24, 19);
             this.label1.Name = "label1";
@@ -67,6 +68,7 @@ namespace Results
             // 
             // txtClass
             // 
+            this.txtClass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtClass.Location = new System.Drawing.Point(83, 25);
             this.txtClass.Name = "txtClass";
             this.txtClass.Size = new System.Drawing.Size(64, 20);
@@ -74,6 +76,7 @@ namespace Results
             // 
             // txtNumber
             // 
+            this.txtNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNumber.Location = new System.Drawing.Point(212, 25);
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(64, 20);
@@ -81,6 +84,7 @@ namespace Results
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(153, 19);
             this.label2.Name = "label2";
@@ -91,6 +95,7 @@ namespace Results
             // 
             // txtName
             // 
+            this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.Location = new System.Drawing.Point(341, 25);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(260, 20);
@@ -98,6 +103,7 @@ namespace Results
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(282, 19);
             this.label3.Name = "label3";
@@ -108,6 +114,7 @@ namespace Results
             // 
             // txtBEL
             // 
+            this.txtBEL.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBEL.Location = new System.Drawing.Point(178, 87);
             this.txtBEL.Name = "txtBEL";
             this.txtBEL.Size = new System.Drawing.Size(41, 20);
@@ -115,6 +122,7 @@ namespace Results
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(24, 78);
             this.label4.Name = "label4";
@@ -125,6 +133,7 @@ namespace Results
             // 
             // txtEzik
             // 
+            this.txtEzik.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtEzik.Location = new System.Drawing.Point(178, 119);
             this.txtEzik.Name = "txtEzik";
             this.txtEzik.Size = new System.Drawing.Size(41, 20);
@@ -132,6 +141,7 @@ namespace Results
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(24, 110);
             this.label5.Name = "label5";
@@ -142,6 +152,7 @@ namespace Results
             // 
             // txtMatematika
             // 
+            this.txtMatematika.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMatematika.Location = new System.Drawing.Point(178, 151);
             this.txtMatematika.Name = "txtMatematika";
             this.txtMatematika.Size = new System.Drawing.Size(41, 20);
@@ -149,6 +160,7 @@ namespace Results
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(24, 142);
             this.label6.Name = "label6";
@@ -159,6 +171,7 @@ namespace Results
             // 
             // txtFizika
             // 
+            this.txtFizika.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFizika.Location = new System.Drawing.Point(411, 87);
             this.txtFizika.Name = "txtFizika";
             this.txtFizika.Size = new System.Drawing.Size(41, 20);
@@ -166,6 +179,7 @@ namespace Results
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(257, 78);
             this.label7.Name = "label7";
@@ -176,6 +190,7 @@ namespace Results
             // 
             // txtHimiq
             // 
+            this.txtHimiq.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtHimiq.Location = new System.Drawing.Point(411, 119);
             this.txtHimiq.Name = "txtHimiq";
             this.txtHimiq.Size = new System.Drawing.Size(41, 20);
@@ -183,6 +198,7 @@ namespace Results
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(257, 110);
             this.label8.Name = "label8";
@@ -193,6 +209,7 @@ namespace Results
             // 
             // txtBiologiq
             // 
+            this.txtBiologiq.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBiologiq.Location = new System.Drawing.Point(411, 151);
             this.txtBiologiq.Name = "txtBiologiq";
             this.txtBiologiq.Size = new System.Drawing.Size(41, 20);
@@ -200,6 +217,7 @@ namespace Results
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(257, 142);
             this.label9.Name = "label9";
@@ -210,39 +228,49 @@ namespace Results
             // 
             // btnClear
             // 
+            this.btnClear.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnClear.BackColor = System.Drawing.Color.Aqua;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(500, 87);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(101, 20);
             this.btnClear.TabIndex = 18;
             this.btnClear.Text = "Изчисти";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSave
             // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.BackColor = System.Drawing.Color.Aqua;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(500, 118);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(101, 20);
             this.btnSave.TabIndex = 19;
             this.btnSave.Text = "Запази";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnSearch
             // 
+            this.btnSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSearch.BackColor = System.Drawing.Color.Aqua;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.Location = new System.Drawing.Point(500, 154);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(101, 20);
             this.btnSearch.TabIndex = 20;
             this.btnSearch.Text = "Търси";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(24, 174);
             this.label10.Name = "label10";
@@ -253,6 +281,8 @@ namespace Results
             // 
             // lblAverage
             // 
+            this.lblAverage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAverage.BackColor = System.Drawing.Color.White;
             this.lblAverage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblAverage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAverage.Location = new System.Drawing.Point(178, 185);
@@ -263,19 +293,23 @@ namespace Results
             // 
             // btnAverage
             // 
+            this.btnAverage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAverage.BackColor = System.Drawing.Color.Aqua;
+            this.btnAverage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAverage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAverage.Location = new System.Drawing.Point(411, 187);
             this.btnAverage.Name = "btnAverage";
             this.btnAverage.Size = new System.Drawing.Size(190, 27);
             this.btnAverage.TabIndex = 23;
             this.btnAverage.Text = "Пресметни среден успех";
-            this.btnAverage.UseVisualStyleBackColor = true;
+            this.btnAverage.UseVisualStyleBackColor = false;
             this.btnAverage.Click += new System.EventHandler(this.btnAverage_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(637, 237);
             this.Controls.Add(this.btnAverage);
             this.Controls.Add(this.lblAverage);

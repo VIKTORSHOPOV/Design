@@ -43,7 +43,6 @@ namespace Results
                     break;
                 }
             }
-
             double[] output = new double[8];
             output[0] = aklas[index];
             output[1] = anumber[index];
@@ -53,9 +52,21 @@ namespace Results
             output[5] = afizika[index];
             output[6] = ahimiq[index];
             output[7] = abiologiq[index];
-
             return output;
+        }
 
+        public bool Contains(string name)
+        {
+            bool index = false;
+            for (int i = 0; i < aname.Length; i++)
+            {
+                if (aname[i] == name)
+                {
+                    index = true;
+                    break;
+                }
+            }
+            return index;
         }
     }
 }
