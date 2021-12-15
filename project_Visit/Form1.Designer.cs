@@ -206,7 +206,7 @@ namespace project_Visit
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1137, 450);
+            this.ClientSize = new System.Drawing.Size(1122, 360);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.btnData);
             this.Controls.Add(this.listBox1);
