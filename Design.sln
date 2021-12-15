@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toto", "Toto\Toto.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Results", "Results\Results.csproj", "{09526D5C-76AF-49BA-8F4C-A1999355088A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal", "Minimal\Minimal.csproj", "{D23EF4A0-821A-491A-BDC3-D6895360C75E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{09526D5C-76AF-49BA-8F4C-A1999355088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09526D5C-76AF-49BA-8F4C-A1999355088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09526D5C-76AF-49BA-8F4C-A1999355088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23EF4A0-821A-491A-BDC3-D6895360C75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23EF4A0-821A-491A-BDC3-D6895360C75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23EF4A0-821A-491A-BDC3-D6895360C75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23EF4A0-821A-491A-BDC3-D6895360C75E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
