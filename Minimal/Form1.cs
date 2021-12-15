@@ -12,7 +12,7 @@ namespace Minimal
 {
     public partial class Form1 : Form
     {
-        int min = int.MaxValue;
+        int min;
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +27,8 @@ namespace Minimal
         private void button2_Click(object sender, EventArgs e)
         {
             Random r = new Random();
+            listBox1.Items.Clear();
+            min = int.MaxValue;
             for (int i = 0; i < 10; i++)
             {
                 int number = r.Next(1, 101);
