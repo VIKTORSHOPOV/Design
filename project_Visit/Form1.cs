@@ -26,7 +26,7 @@ namespace project_Visit
             v.Bytes = int.Parse(textBox4.Text);
             v.Seconds = int.Parse(textBox5.Text);
             v.Web = textBox6.Text;
-            
+
             allBytes.Add(v.Bytes);
 
             listBox1.Items.Add(v.InfoForVisit());
@@ -34,12 +34,7 @@ namespace project_Visit
 
         private void btnData_Click(object sender, EventArgs e)
         {
-            int bytes = 0;
-            foreach (int item in allBytes)
-            {
-                bytes += item;
-            }
-            lblData.Text = bytes.ToString() + " B";
+            lblData.Text = allBytes.Sum().ToString() + " B";
         }
 
         private void btnClear_Click(object sender, EventArgs e)
