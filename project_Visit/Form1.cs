@@ -17,7 +17,8 @@ namespace project_Visit
             InitializeComponent();
         }
 
-        List<int> allBytes = new List<int>();
+        //List<int> allBytes = new List<int>();
+        int sum = 0;
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Visit v = new Visit();
@@ -27,15 +28,16 @@ namespace project_Visit
             v.Bytes = int.Parse(textBox4.Text);
             v.Seconds = int.Parse(textBox5.Text);
             v.Web = textBox6.Text;
-
-            allBytes.Add(v.Bytes);
+            sum += v.Bytes;
+            //allBytes.Add(v.Bytes);
 
             listBox1.Items.Add(v.InfoForVisit());
         }
 
         private void btnData_Click(object sender, EventArgs e)
         {
-            lblData.Text = allBytes.Sum().ToString() + " B";
+            //lblData.Text = allBytes.Sum().ToString() + " B";
+            lblData.Text = sum.ToString() + " B";
         }
 
         private void btnClear_Click(object sender, EventArgs e)
