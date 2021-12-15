@@ -189,7 +189,7 @@ namespace project_Visit
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(713, 21);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(394, 244);
+            this.listBox1.Size = new System.Drawing.Size(643, 244);
             this.listBox1.TabIndex = 14;
             // 
             // btnData
@@ -222,7 +222,7 @@ namespace project_Visit
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1122, 360);
+            this.ClientSize = new System.Drawing.Size(1480, 360);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.btnData);
             this.Controls.Add(this.listBox1);
