@@ -18,6 +18,7 @@ namespace Toto
         int br4;
         int br5;
         int br6;
+
         public Form1()
         {
             InitializeComponent();

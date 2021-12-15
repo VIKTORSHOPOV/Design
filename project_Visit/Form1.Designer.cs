@@ -52,6 +52,7 @@ namespace project_Visit
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(16, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(391, 25);
@@ -63,6 +64,7 @@ namespace project_Visit
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(16, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(391, 25);
@@ -74,6 +76,7 @@ namespace project_Visit
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(16, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(391, 25);
@@ -85,6 +88,7 @@ namespace project_Visit
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(16, 142);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(391, 25);
@@ -96,6 +100,7 @@ namespace project_Visit
             // 
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(16, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(391, 25);
@@ -107,6 +112,7 @@ namespace project_Visit
             // 
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(16, 224);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(391, 25);
@@ -221,7 +227,7 @@ namespace project_Visit
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(140)))), ((int)(((byte)(99)))));
             this.ClientSize = new System.Drawing.Size(1480, 360);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.btnData);
