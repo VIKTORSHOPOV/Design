@@ -174,10 +174,12 @@ namespace project_Visit
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(713, 21);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(394, 238);
+            this.listBox1.Size = new System.Drawing.Size(394, 244);
             this.listBox1.TabIndex = 14;
             // 
             // btnData
