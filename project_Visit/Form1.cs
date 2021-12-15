@@ -16,6 +16,7 @@ namespace project_Visit
         {
             InitializeComponent();
         }
+
         List<int> allBytes = new List<int>();
         private void btnAdd_Click(object sender, EventArgs e)
         {
