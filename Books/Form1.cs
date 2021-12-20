@@ -39,11 +39,11 @@ namespace Books
 
         private void btnSaveFile_Click(object sender, EventArgs e)
         {
-            if (File.Exists(@"c:\temp\Books.txt"))
+            if (File.Exists(@"Books.txt"))
             {
-                File.Delete(@"c:\temp\Books.txt");
+                File.Delete(@"Books.txt");
             }
-            using (StreamWriter sw = new StreamWriter(@"c:\temp\Books.txt"))
+            using (StreamWriter sw = new StreamWriter(@"Books.txt"))
             {
                 string result = string.Empty;
                 foreach (Book book in books)
@@ -56,9 +56,9 @@ namespace Books
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (File.Exists(@"c:\temp\Books.txt"))
+            if (File.Exists(@"Books.txt"))
             {
-                using (StreamReader sr = new StreamReader(@"c:\temp\Books.txt"))
+                using (StreamReader sr = new StreamReader(@"Books.txt"))
                 {
                     richTextBox1.Text = sr.ReadToEnd();
                 }
