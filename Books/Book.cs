@@ -17,15 +17,5 @@ namespace Books
         public Book()
         {
         }
-
-        public Book(string title, string author, int year, int count, double price)
-        {
-            Title = title;
-            Author = author;
-            Year = year;
-            Count = count;
-            Price = price;
-        }
-
     }
 }
