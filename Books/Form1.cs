@@ -48,7 +48,7 @@ namespace Books
                 string result = string.Empty;
                 foreach (Book book in books)
                 {
-                    result += $"{book.Title} {book.Author} {book.Year} {book.Count} {book.Price}\n";
+                    result += $"{book.Title} {book.Author} {book.Year} {book.Count} {book.Price} {book.Price * book.Count}lv.\n";
                 }
                 sw.WriteLine(result);
             }
