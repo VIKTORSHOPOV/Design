@@ -13,10 +13,16 @@ namespace Books
 {
     public partial class Form1 : Form
     {
-        List<Book> books = new List<Book>();
+        static int br = 0;
+        //List<Book> books = new List<Book>();
+        Book[] books = new Book[10];
         public Form1()
         {
             InitializeComponent();
+            for (int i = 0; i < 10; i++)
+            {
+                books[i] = new Book();
+            }
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -29,7 +35,8 @@ namespace Books
                 Count = int.Parse(txtCount.Text),
                 Price = double.Parse(txtPrice.Text)
             };
-            books.Add(newBook);
+            books[br] = (newBook);
+            br++;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -46,11 +53,15 @@ namespace Books
             using (StreamWriter sw = new StreamWriter(@"Books.txt"))
             {
                 string result = string.Empty;
-                foreach (Book book in books)
+                for (int i = 0; i < books.Length; i++)
                 {
-                    result += $"{book.Title} {book.Author} {book.Year} {book.Count} {book.Price} {book.Price * book.Count}lv.\n";
+                    sw.Write(books[i].BookInfo());
                 }
-                sw.WriteLine(result);
+                //foreach (Book book in books)
+                //{
+                //    sw.Write(book.BookInfo());
+                //}
+
             }
         }
 
